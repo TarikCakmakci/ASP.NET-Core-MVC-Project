@@ -12,7 +12,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=94.73.147.7;database=u7174244_ProBudy; integrated security=true;");
+            optionsBuilder.UseSqlServer("server=DESKTOP-U29DP74;database=ProjectBuddyDb; integrated security=true;");
         }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Category> Categories { get; set; }
