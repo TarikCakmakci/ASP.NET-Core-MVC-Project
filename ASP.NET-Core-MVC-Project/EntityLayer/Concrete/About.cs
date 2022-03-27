@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    class About
+    public class About
     {
+
     }
 }
