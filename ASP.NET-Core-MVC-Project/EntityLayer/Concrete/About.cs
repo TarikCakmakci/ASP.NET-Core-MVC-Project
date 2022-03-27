@@ -8,6 +8,7 @@ namespace EntityLayer.Concrete
 {
     public class About
     {
-
+        //selamlar hocam
+        //bugün pazar parrar
     }
 }
