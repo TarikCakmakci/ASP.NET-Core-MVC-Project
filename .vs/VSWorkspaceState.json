@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ASP.NET-Core-MVC-Project",
+    "\\ASP.NET-Core-MVC-Project\\DataAccessLayer",
+    "\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\Concrete"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project.sln",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\Concrete\\Context.cs",
   "PreviewInSolutionExplorer": false
 }
