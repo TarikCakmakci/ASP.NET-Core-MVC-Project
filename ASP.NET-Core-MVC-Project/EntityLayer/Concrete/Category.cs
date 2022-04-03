@@ -19,5 +19,7 @@ namespace EntityLayer.Concrete
 
         public bool CategoryStatus { get; set; }
 
+        public  List<Post> Posts { get; set; }
+
     }
 }
