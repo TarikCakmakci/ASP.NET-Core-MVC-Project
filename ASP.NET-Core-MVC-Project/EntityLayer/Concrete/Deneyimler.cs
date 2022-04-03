@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ASP.NET_Core_MVC_Project.Models
+namespace EntityLayer.Concrete
 {
     public class Deneyimler
     {

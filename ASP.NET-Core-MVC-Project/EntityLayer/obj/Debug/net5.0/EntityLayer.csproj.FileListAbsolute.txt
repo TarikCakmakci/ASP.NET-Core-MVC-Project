@@ -14,7 +14,6 @@ E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\bi
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
-E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
