@@ -28,15 +28,15 @@ namespace DataAccessLayer.Concrete
         }
         public DbSet<Deneyimler> Deneyimler { get; set; }
 
-        public DbSet<Deneyimler> EgitimBilgileri { get; set; }
+        public DbSet<EgitimBilgileri> EgitimBilgileri { get; set; }
 
-        public DbSet<Deneyimler> Iletisim { get; set; }
+        public DbSet<Iletisim> Iletisim { get; set; }
 
-        public DbSet<Deneyimler> Kimlik { get; set; }
+        public DbSet<Kimlik> Kimlik { get; set; }
 
-        public DbSet<Deneyimler> Kullanici { get; set; }
+        public DbSet<Kullanici> Kullanici { get; set; }
 
-        public DbSet<Deneyimler> Yetkinlikler { get; set; }
+        public DbSet<Yetkinlikler> Yetkinlikler { get; set; }
 
 
 
