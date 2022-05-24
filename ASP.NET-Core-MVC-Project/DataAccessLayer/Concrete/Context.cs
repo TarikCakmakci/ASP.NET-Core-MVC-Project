@@ -16,9 +16,9 @@ namespace DataAccessLayer.Concrete
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=94.73.147.7;Database=u7174244_ProBudy;User Id=u7174244_ProBudy; Password=KYyp18Q1HPaj97N;");
+            optionsBuilder.UseSqlServer(@"Server=78.135.105.238;Database=u7174244_ProBudy;User Id=u7174244_ProBudy; Password=KYyp18Q1HPaj97N;");
         }
-        //public Context(DbContextOptions<Context> options) : base(options)
+        //public Context(DbContextOptions<Context> options) : base(options)+
         //{
 
         //}
@@ -26,6 +26,18 @@ namespace DataAccessLayer.Concrete
         : base(options)
         {
         }
+        public DbSet<About> Abouts { get; set; }
+
+        public DbSet<Blog> Blogs { get; set; }
+        
+        public DbSet<Category> Categories { get; set; }
+        
+        public DbSet<Comment> Comments { get; set; }
+        
+        public DbSet<Contact> Contacts { get; set; }
+        
+        public DbSet<Writer> Writers { get; set; }
+        
         public DbSet<Deneyimler> Deneyimler { get; set; }
 
         public DbSet<EgitimBilgileri> EgitimBilgileri { get; set; }

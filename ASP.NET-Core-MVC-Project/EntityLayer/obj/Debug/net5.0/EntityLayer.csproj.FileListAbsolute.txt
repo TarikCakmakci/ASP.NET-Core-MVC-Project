@@ -21,3 +21,4 @@ E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\ob
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache

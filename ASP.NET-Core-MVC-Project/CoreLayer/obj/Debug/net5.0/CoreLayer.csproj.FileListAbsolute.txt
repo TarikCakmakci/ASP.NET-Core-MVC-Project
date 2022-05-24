@@ -21,3 +21,4 @@ E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\CoreLayer\obj\
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache
