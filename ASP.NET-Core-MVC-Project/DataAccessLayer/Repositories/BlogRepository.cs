@@ -9,13 +9,18 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Repositories
 {
-    public class BlogRepository : IBlogDal
+    public class BlogRepository : IGenericDal<Blog>
     {
         public void AddBlog(Blog blog)
         {
             using var c = new Context();
             c.Add(blog);
             c.SaveChanges();
+        }
+
+        public void Delete(Blog t)
+        {
+            throw new NotImplementedException();
         }
 
         public void DeleteBlog(Blog blog)
@@ -31,10 +36,30 @@ namespace DataAccessLayer.Repositories
             return c.Blogs.Find(id);
         }
 
+        public Blog GetByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Blog> GetListAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Insert(Blog t)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Blog> ListAllBlog()
         {
             using var c = new Context();
             return c.Blogs.ToList();
+        }
+
+        public void Update(Blog t)
+        {
+            throw new NotImplementedException();
         }
 
         public void UpdateBlog(Blog blog)
@@ -44,9 +69,6 @@ namespace DataAccessLayer.Repositories
             c.SaveChanges();
         }
 
-        Category IBlogDal.GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
