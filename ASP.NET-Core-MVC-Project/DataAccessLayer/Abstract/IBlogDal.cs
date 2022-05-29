@@ -9,6 +9,8 @@ namespace DataAccessLayer.Abstract
 {
     public interface IBlogDal: IGenericDal<Blog>
     {
-       
+        List<Blog> GetListWithCategory();
+        //Sadece ilgili entitye ait metod, dışarıdan başka tabloya bağlı olduğu için bu metodu yazıyoruz.
+
     }
 }
