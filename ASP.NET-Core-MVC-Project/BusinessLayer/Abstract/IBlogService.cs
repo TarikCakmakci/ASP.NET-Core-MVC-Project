@@ -21,5 +21,7 @@ namespace BusinessLayer.Abstract
 
         List<Blog> GetBlogListWithCategory();
 
+        
+
     }
 }

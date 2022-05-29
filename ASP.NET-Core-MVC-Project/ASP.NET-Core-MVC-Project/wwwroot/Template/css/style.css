@@ -549,7 +549,7 @@ section.bottom-slider {
 	}
 	.nbs-flexisel-container {
 		position: relative;
-		max-width: 100%;
+		max-width: 90%;
 	}
 	.nbs-flexisel-ul {
 		position: relative;
