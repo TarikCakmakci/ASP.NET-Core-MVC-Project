@@ -5,10 +5,11 @@
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Blog",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared",
     "\\ASP.NET-Core-MVC-Project\\DataAccessLayer",
     "\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\Concrete",
     "\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\Migrations"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Blog\\Index.cshtml",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\UserLayout.cshtml",
   "PreviewInSolutionExplorer": false
 }
