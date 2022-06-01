@@ -23,7 +23,10 @@ namespace ASP.NET_Core_MVC_Project.Controllers
 
         public IActionResult Index(Writer p)
         {
-            return View();
+            p.WriterStatus = true;
+            p.WriterAbout = "Deneme Test";
+            wm.WriterAdd(p);
+            return RedirectToAction("Index","Blog");
         }
     }
 }
