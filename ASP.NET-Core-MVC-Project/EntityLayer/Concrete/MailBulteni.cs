@@ -7,18 +7,13 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class NewsLetter
+    public class MailBulteni
     {
-        public NewsLetter()
-        {
-
-        }
         [Key]
-        public int MailID { get; set; }
+        public int EmailID { get; set; }
 
-        public string Mail { get; set; }
+        public string Email { get; set; }
 
-        public bool MailStatus { get; set; }
+        public bool EmailStatus { get; set; }
     }
 }
-

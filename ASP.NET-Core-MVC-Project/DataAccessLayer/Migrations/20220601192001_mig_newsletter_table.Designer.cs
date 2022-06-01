@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220601143305_mig_add_newsletter_table")]
-    partial class mig_add_newsletter_table
+    [Migration("20220601192001_mig_newsletter_table")]
+    partial class mig_newsletter_table
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -328,8 +328,8 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Mail")
-                        .HasColumnType("int");
+                    b.Property<string>("Mail")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("MailStatus")
                         .HasColumnType("bit");

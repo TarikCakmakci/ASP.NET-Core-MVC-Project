@@ -5,11 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLayer.Abstract
+namespace DataAccessLayer.Abstract
 {
-    public interface INewsletterService
+    public interface IMailBulteniDal : IGenericDal<MailBulteni>
     {
-        void AddNewsletter(NewsLetter newsletter);
-
     }
 }

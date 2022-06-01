@@ -319,23 +319,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Kullanici");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.NewsLetter", b =>
-                {
-                    b.Property<int>("MailID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("Mail")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("MailStatus")
-                        .HasColumnType("bit");
-
-                    b.HasKey("MailID");
-
-                    b.ToTable("NewsLetters");
-                });
+            
 
             modelBuilder.Entity("EntityLayer.Concrete.Writer", b =>
                 {
