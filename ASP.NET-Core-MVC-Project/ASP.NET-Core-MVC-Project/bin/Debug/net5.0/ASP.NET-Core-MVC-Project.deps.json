@@ -36,8 +36,6 @@
           "BusinessLayer": "1.0.0",
           "DataAccessLayer": "1.0.0",
           "EntityLayer": "1.0.0",
-          "FluentValidation": "11.0.2",
-          "FluentValidation.AspNetCore": "11.0.2",
           "Microsoft.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore.Design": "5.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
@@ -330,47 +328,6 @@
         },
         "compile": {
           "ASP.NET-Core-MVC-Project.dll": {}
-        }
-      },
-      "FluentValidation/11.0.2": {
-        "runtime": {
-          "lib/net5.0/FluentValidation.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.0"
-          }
-        },
-        "compile": {
-          "lib/net5.0/FluentValidation.dll": {}
-        }
-      },
-      "FluentValidation.AspNetCore/11.0.2": {
-        "dependencies": {
-          "FluentValidation": "11.0.2",
-          "FluentValidation.DependencyInjectionExtensions": "11.0.2"
-        },
-        "runtime": {
-          "lib/net5.0/FluentValidation.AspNetCore.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.0"
-          }
-        },
-        "compile": {
-          "lib/net5.0/FluentValidation.AspNetCore.dll": {}
-        }
-      },
-      "FluentValidation.DependencyInjectionExtensions/11.0.2": {
-        "dependencies": {
-          "FluentValidation": "11.0.2",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -1851,9 +1808,7 @@
       "BusinessLayer/1.0.0": {
         "dependencies": {
           "DataAccessLayer": "1.0.0",
-          "EntityLayer": "1.0.0",
-          "FluentValidation": "11.0.2",
-          "FluentValidation.AspNetCore": "11.0.2"
+          "EntityLayer": "1.0.0"
         },
         "runtime": {
           "BusinessLayer.dll": {}
@@ -3576,27 +3531,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "FluentValidation/11.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ik/xogKqBmZWIURMXNEbugJlKka6iV9a4qckmKDp7sHSwIfgkZ/ewzCuAeUTkFdVZujfDW6mCLMjrrR6GG4xLQ==",
-      "path": "fluentvalidation/11.0.2",
-      "hashPath": "fluentvalidation.11.0.2.nupkg.sha512"
-    },
-    "FluentValidation.AspNetCore/11.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KTxapk15F+NT/nxzu72NonCgDtsiKQP9KALbjqxOvW+DtJGIF45XcIOSzpc4eEBA/I0BoDkmLODsO98DchBq5A==",
-      "path": "fluentvalidation.aspnetcore/11.0.2",
-      "hashPath": "fluentvalidation.aspnetcore.11.0.2.nupkg.sha512"
-    },
-    "FluentValidation.DependencyInjectionExtensions/11.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ChfGHFGoLSN97MKZcippJ2qJskWuv6I3E0ngV5OTp3FhaPfFC+KcUMqaE72HtT13B8hkP/XmHlQfgSTzsmsdZw==",
-      "path": "fluentvalidation.dependencyinjectionextensions/11.0.2",
-      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.0.2.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

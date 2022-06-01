@@ -50,8 +50,6 @@ namespace DataAccessLayer.Concrete
 
         public DbSet<Yetkinlikler> Yetkinlikler { get; set; }
 
-        public DbSet<NewsLetter> NewsLetters { get; set; }
-
 
 
 
