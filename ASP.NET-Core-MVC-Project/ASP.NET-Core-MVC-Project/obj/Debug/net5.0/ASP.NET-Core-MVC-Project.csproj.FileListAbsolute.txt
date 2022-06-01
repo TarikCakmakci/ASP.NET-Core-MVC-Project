@@ -332,3 +332,4 @@ E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-M
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\ASP.NET-Core-MVC-Project.MvcApplicationPartsAssemblyInfo.cs
+E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
