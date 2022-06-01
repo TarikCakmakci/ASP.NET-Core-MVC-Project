@@ -224,7 +224,6 @@ namespace DataAccessLayer.Migrations
                     CommentTitle = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CommentContent = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CommentDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    BlogPoint = table.Column<int>(type: "int", nullable: false),
                     CommentStatus = table.Column<bool>(type: "bit", nullable: false),
                     BlogId = table.Column<int>(type: "int", nullable: false)
                 },
