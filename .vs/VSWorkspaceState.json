@@ -3,14 +3,9 @@
     "",
     "\\ASP.NET-Core-MVC-Project",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Controllers",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Models",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared",
-    "\\ASP.NET-Core-MVC-Project\\DataAccessLayer",
-    "\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\Concrete",
-    "\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\Migrations"
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\MailBulteni"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Controllers\\RegisterController.cs",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\MailBulteni\\SubscribeMail.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfMailBulteni :GenericRepository<MailBulteni>, IMailBulteniDal
+    public class EfMailBulteniRepository :GenericRepository<MailBulteni>, IMailBulteniDal
     {
     }
 }

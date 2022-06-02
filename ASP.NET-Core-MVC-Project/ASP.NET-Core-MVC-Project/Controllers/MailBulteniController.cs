@@ -11,7 +11,7 @@ namespace ASP.NET_Core_MVC_Project.Controllers
 {
     public class MailBulteniController : Controller
     {
-        MailBulteniManager mb = new MailBulteniManager(new EfMailBulteni());
+        MailBulteniManager mb = new MailBulteniManager(new EfMailBulteniRepository());
 
         [HttpGet]
         public PartialViewResult SubscribeMail()
