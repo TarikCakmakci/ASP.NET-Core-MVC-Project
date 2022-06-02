@@ -5834,25 +5834,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Onur\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Tarık\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\obj\\",
+      "projectPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\Tarık\\.nuget\\packages\\",
+      "outputPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Tarık\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5865,11 +5860,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj"
+            "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj"
+            "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
@@ -5908,16 +5903,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

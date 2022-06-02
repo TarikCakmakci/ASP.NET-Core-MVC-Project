@@ -16,7 +16,7 @@ namespace ASP.NET_Core_MVC_Project.Controllers
         [HttpGet]
         public PartialViewResult SubscribeMail()
         {
-            return PartialView();
+            return PartialView(); 
         }
         [HttpPost]
         public PartialViewResult SubscribeMail(MailBulteni m)

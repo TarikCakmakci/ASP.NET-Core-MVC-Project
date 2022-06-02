@@ -52,6 +52,10 @@ namespace DataAccessLayer.Concrete
 
         public DbSet<NewsLetter> NewsLetters { get; set; }
 
+        public DbSet<MailBulteni> MailBultenleri { get; set; }
+
+
+
 
 
 
