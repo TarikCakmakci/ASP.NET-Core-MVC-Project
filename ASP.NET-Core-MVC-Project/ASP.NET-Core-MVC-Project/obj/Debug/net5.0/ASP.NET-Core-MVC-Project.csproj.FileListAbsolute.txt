@@ -347,3 +347,4 @@ C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC
 C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Views\ErrorPage\Error1.cshtml.g.cs
 C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Views\About\Index.cshtml.g.cs
 C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Views\About\SocialMediaAbout.cshtml.g.cs
+C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
