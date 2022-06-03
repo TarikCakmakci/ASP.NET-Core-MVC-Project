@@ -74,11 +74,13 @@
                             <div class="tech-btm">
                                 <img src="~/Template/images/banner1.jpg" class="img-fluid" alt="">
                             </div>
-                            @await Html.PartialAsync("~/Views/MailBulteni/SubscribeMail.cshtml") 
+                            <h4>Mail Bültenimize Abone Olun!</h4>
+
+                            @await Html.PartialAsync("~/Views/MailBulteni/SubscribeMail.cshtml")
 
                             @await Component.InvokeAsync("CategoryList")
 
-                            @await Component.InvokeAsync("WriterLastBlog") 
+                            @await Component.InvokeAsync("WriterLastBlog")
 
                             <div class="single-gd my-5 tech-btm">
                                 <h4>Our Progress</h4>
