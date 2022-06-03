@@ -3,9 +3,12 @@
     "",
     "\\ASP.NET-Core-MVC-Project",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Controllers",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\MailBulteni"
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\MailBulteni",
+    "\\ASP.NET-Core-MVC-Project\\BusinessLayer",
+    "\\ASP.NET-Core-MVC-Project\\BusinessLayer\\Concrete"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\MailBulteni\\SubscribeMail.cshtml",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\BusinessLayer\\Concrete\\BlogManager.cs",
   "PreviewInSolutionExplorer": false
 }

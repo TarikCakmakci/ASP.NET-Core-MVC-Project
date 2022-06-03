@@ -1,7 +1,9 @@
 using DataAccessLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,6 +31,13 @@ namespace ASP.NET_Core_MVC_Project
 
             //    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             //);
+            services.AddMvc(config =>
+            {
+                var policy = new AuthorizationPolicyBuilder()
+                    .RequireAuthenticatedUser()
+                    .Build();
+                config.Filters.Add(new AuthorizeFilter(policy));
+            });
             services.AddDbContext<Context>(
             options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
             services.AddControllersWithViews();
