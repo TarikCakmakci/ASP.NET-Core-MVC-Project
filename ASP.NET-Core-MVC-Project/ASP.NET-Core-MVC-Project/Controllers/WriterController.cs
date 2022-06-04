@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace ASP.NET_Core_MVC_Project.Controllers
 {
-        
+   
     public class WriterController : Controller
     {
-        
+         [AllowAnonymous]
         public IActionResult Index()
         {
             return View();

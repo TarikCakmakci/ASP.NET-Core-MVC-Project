@@ -31,6 +31,10 @@ namespace ASP.NET_Core_MVC_Project
 
             //    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             //);
+            services.AddControllersWithViews();
+
+            services.AddSession();
+
             services.AddMvc(config =>
             {
                 var policy = new AuthorizationPolicyBuilder()
@@ -40,7 +44,7 @@ namespace ASP.NET_Core_MVC_Project
             });
             services.AddDbContext<Context>(
             options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
-            services.AddControllersWithViews();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,6 +65,8 @@ namespace ASP.NET_Core_MVC_Project
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseSession();
 
             app.UseRouting();
 
