@@ -1,4 +1,5 @@
 using DataAccessLayer.Concrete;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -42,6 +43,16 @@ namespace ASP.NET_Core_MVC_Project
                     .Build();
                 config.Filters.Add(new AuthorizeFilter(policy));
             });
+
+            services.AddMvc();
+            services.AddAuthentication(
+                CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(x=>
+                {
+                    x.LoginPath = "/Login/Index";
+                }
+                );
+
             services.AddDbContext<Context>(
             options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
             
