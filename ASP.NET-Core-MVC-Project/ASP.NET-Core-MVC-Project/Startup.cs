@@ -34,8 +34,7 @@ namespace ASP.NET_Core_MVC_Project
             //);
             services.AddControllersWithViews();
 
-            services.AddSession();
-
+            
             services.AddMvc(config =>
             {
                 var policy = new AuthorizationPolicyBuilder()
@@ -77,6 +76,7 @@ namespace ASP.NET_Core_MVC_Project
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            app.UseAuthentication();
             app.UseSession();
 
             app.UseRouting();
