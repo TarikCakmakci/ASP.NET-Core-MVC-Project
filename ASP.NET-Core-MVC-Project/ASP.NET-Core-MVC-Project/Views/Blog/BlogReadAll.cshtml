@@ -51,7 +51,7 @@
 
                             <h3>
                                 <a href="single.html">@item.BlogTitle </a>
-                               
+
                             </h3>
                             <p>
                                 @item.BlogContent
@@ -60,13 +60,13 @@
                     }
                     
 
-                    @await Component.InvokeAsync("CommentListByBlog", new  {id = ViewBag.i })
+                    @await Component.InvokeAsync("CommentListByBlog", new { id = ViewBag.i })
 
                     @*@await Html.PartialAsync("~/Views/Comment/CommentListByBlog.cshtml")*@
 
                     @await Html.PartialAsync("~/Views/Comment/PartialAddComment.cshtml")
 
-                    </div>
+                </div>
                     <!--//left-->
                     <!--right-->
                     <aside class="col-lg-4 agileits-w3ls-right-blog-con text-right">
