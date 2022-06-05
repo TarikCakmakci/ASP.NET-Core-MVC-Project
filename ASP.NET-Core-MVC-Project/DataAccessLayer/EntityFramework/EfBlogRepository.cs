@@ -23,5 +23,16 @@ namespace DataAccessLayer.EntityFramework
 
             }
         }
+
+        public List<Blog> GetListWithCategoryByWriter(int id)
+        {
+            using (var c = new Context())
+            {
+
+                return c.Blogs.Include(x => x.Category).Where(x =>x.WriterId == id).ToList();
+                //Blog içerisine category sınıfından veri alacağımız için include metodu kullanıyoruz.
+
+            }
+        }
     }
 }

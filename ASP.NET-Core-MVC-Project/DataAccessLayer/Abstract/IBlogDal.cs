@@ -11,6 +11,8 @@ namespace DataAccessLayer.Abstract
     {
         List<Blog> GetListWithCategory();
         //Sadece ilgili entitye ait metod, dışarıdan başka tabloya bağlı olduğu için bu metodu yazıyoruz.
+        List<Blog> GetListWithCategoryByWriter(int id);
+
 
     }
 }

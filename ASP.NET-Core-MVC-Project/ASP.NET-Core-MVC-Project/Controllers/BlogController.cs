@@ -34,7 +34,7 @@ namespace ASP.NET_Core_MVC_Project.Controllers
 
         public IActionResult BlogListByWriter()
         {
-            var values = bm.GetBlogListByWriter(1);
+            var values = bm.GetListWithCategoryByWriterBm(1);
             return View(values);
         }
 
