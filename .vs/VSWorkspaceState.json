@@ -3,13 +3,11 @@
     "",
     "\\ASP.NET-Core-MVC-Project",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Controllers",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Login",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Writer",
-    "\\ASP.NET-Core-MVC-Project\\EntityLayer",
-    "\\ASP.NET-Core-MVC-Project\\EntityLayer\\Concrete"
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components\\WriterMessageNotification"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Startup.cs",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
   "PreviewInSolutionExplorer": false
 }
