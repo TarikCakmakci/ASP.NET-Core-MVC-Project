@@ -23,6 +23,11 @@ namespace ASP.NET_Core_MVC_Project.Controllers
         {
             return View();
         }
+        [AllowAnonymous]
+        public IActionResult Test()
+        {
+            return View();
+        }
 
     }
 }

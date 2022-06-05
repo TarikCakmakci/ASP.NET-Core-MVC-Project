@@ -4,9 +4,12 @@
     "\\ASP.NET-Core-MVC-Project",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Controllers",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Login",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Writer",
     "\\ASP.NET-Core-MVC-Project\\EntityLayer",
     "\\ASP.NET-Core-MVC-Project\\EntityLayer\\Concrete"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project.sln",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

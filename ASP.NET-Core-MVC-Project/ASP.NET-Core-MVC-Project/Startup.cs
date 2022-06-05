@@ -34,6 +34,7 @@ namespace ASP.NET_Core_MVC_Project
             //);
             services.AddControllersWithViews();
 
+            services.AddSession();
             
             services.AddMvc(config =>
             {
