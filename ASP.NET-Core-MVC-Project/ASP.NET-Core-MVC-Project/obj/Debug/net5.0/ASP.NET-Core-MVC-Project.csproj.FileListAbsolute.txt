@@ -377,3 +377,4 @@ E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-M
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Views\Blog\BlogAdd.cshtml.g.cs
 C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Views\Blog\BlogAdd.cshtml.g.cs
 E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Views\Blog\EditBlog.cshtml.g.cs
+E:\source\repos\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs
