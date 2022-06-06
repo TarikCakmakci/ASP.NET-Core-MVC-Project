@@ -8,8 +8,9 @@
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Blog",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components\\WriterMessageNotification"
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components\\WriterMessageNotification",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Writer"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project.sln",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Writer\\WriterNavbarPartial.cshtml",
   "PreviewInSolutionExplorer": false
 }
