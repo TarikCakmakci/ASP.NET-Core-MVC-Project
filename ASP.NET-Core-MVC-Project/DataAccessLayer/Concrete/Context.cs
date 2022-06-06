@@ -54,6 +54,9 @@ namespace DataAccessLayer.Concrete
 
         public DbSet<MailBulteni> MailBultenleri { get; set; }
 
+        public DbSet<BlogRayting> BlogRaytings { get; set; }
+
+
 
 
 
