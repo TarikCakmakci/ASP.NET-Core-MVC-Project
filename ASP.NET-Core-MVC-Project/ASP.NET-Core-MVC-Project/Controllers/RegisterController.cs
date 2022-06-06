@@ -31,7 +31,7 @@ namespace ASP.NET_Core_MVC_Project.Controllers
             {
                 p.WriterStatus = true;
                 p.WriterAbout = "Deneme Test";
-                wm.WriterAdd(p);
+                wm.TAdd(p);
                 return RedirectToAction("Index", "Blog");
 
             }

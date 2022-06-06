@@ -3,14 +3,14 @@
     "",
     "\\ASP.NET-Core-MVC-Project",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Controllers",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Blog",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components\\WriterMessageNotification",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Writer"
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Writer",
+    "\\ASP.NET-Core-MVC-Project\\DataAccessLayer",
+    "\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\Migrations"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Writer\\WriterNavbarPartial.cshtml",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\Migrations\\20220606140856_mig_BlogRayting_Table.cs",
   "PreviewInSolutionExplorer": false
 }
