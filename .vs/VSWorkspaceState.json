@@ -6,11 +6,11 @@
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components",
-    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components\\WriterMessageNotification",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components\\WriterNotification",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Writer",
     "\\ASP.NET-Core-MVC-Project\\DataAccessLayer",
     "\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\Migrations"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Writer\\WriterEditProfile.cshtml",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\Components\\WriterNotification\\Default.cshtml",
   "PreviewInSolutionExplorer": false
 }
