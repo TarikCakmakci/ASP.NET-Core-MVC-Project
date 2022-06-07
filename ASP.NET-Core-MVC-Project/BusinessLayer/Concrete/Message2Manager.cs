@@ -9,46 +9,41 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class MessageManager : IMessageService
+    public class Message2Manager : IMessage2Service
     {
-        IMessageDal _messageDal;
+        IMessage2Dal _messageDal;
 
-        public MessageManager(IMessageDal messageDal)
+        public Message2Manager(IMessage2Dal messageDal)
         {
             _messageDal = messageDal;
         }
 
-        public List<Message> GetList()
+        public List<Message2> GetInboxListByWriter(int id)
+        {
+            return _messageDal.GetListAll(x => x.ReceiverID == id);
+        }
+
+        public List<Message2> GetList()
         {
             return _messageDal.GetListAll();
         }
 
-        public List<Message> GetInboxListByWriter(string p)
-        {
-            return _messageDal.GetListAll(x => x.Receiver == p);
-        }
-
-        public void TAdd(Message t)
+        public void TAdd(Message2 t)
         {
             throw new NotImplementedException();
         }
 
-        public void TDelete(Message t)
+        public void TDelete(Message2 t)
         {
             throw new NotImplementedException();
         }
 
-        public Message TGetById(int id)
+        public Message2 TGetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void TUpdate(Message t)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<Message> IMessageService.GetInboxListByWriter(string p)
+        public void TUpdate(Message2 t)
         {
             throw new NotImplementedException();
         }
