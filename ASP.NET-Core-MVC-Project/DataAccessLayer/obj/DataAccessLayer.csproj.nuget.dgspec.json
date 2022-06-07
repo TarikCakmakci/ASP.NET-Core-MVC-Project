@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Tarık\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Tarık\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -28,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -80,22 +84,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\Tarık\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Tarık\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -134,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
