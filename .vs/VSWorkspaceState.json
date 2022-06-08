@@ -3,10 +3,12 @@
     "",
     "\\ASP.NET-Core-MVC-Project",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Controllers",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Dashboard",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Notification",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project.sln",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\WriterLayout.cshtml",
   "PreviewInSolutionExplorer": false
 }

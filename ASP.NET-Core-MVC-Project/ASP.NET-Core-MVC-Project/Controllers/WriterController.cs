@@ -1,6 +1,7 @@
 ﻿using ASP.NET_Core_MVC_Project.Models;
 using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
@@ -18,8 +19,14 @@ namespace ASP.NET_Core_MVC_Project.Controllers
     public class WriterController : Controller
     {
         WriterManager wm = new WriterManager(new EfWriterRepository());
+        [Authorize]
         public IActionResult Index()
         {
+            var usermail = User.Identity.Name;
+            ViewBag.v = usermail;
+            Context c = new Context();
+            var writerName = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterName).FirstOrDefault();
+            ViewBag.v2 = writerName;        
             return View();
         }
         public IActionResult WriterProfile()
@@ -46,14 +53,17 @@ namespace ASP.NET_Core_MVC_Project.Controllers
             return PartialView();
 
         }
-        [AllowAnonymous]
+        
         [HttpGet]
         public IActionResult WriterEditProfile()
         {
-            var writerValues = wm.TGetById(1);
+            Context c = new Context();
+            var usermail = User.Identity.Name;           
+            var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterId).FirstOrDefault();
+            var writerValues = wm.TGetById(writerID);
             return View(writerValues);
         }
-        [AllowAnonymous]
+        
         [HttpPost]
         public IActionResult WriterEditProfile(Writer p)
         {

@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 namespace ASP.NET_Core_MVC_Project.Controllers
 {
     public class DashboardController : Controller
-    {
-        [AllowAnonymous]
-
+    {        
         public IActionResult Index()
         {
             Context c = new Context();
