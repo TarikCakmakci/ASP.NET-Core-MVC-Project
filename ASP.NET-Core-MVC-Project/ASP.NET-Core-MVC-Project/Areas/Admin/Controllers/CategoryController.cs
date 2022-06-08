@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using X.PagedList;
 
 namespace ASP.NET_Core_MVC_Project.Areas.Admin.Controllers
 {
@@ -14,9 +15,9 @@ namespace ASP.NET_Core_MVC_Project.Areas.Admin.Controllers
     {
         CategoryManager cm = new CategoryManager(new EfCategoryRepository());
        
-        public IActionResult Index()
+        public IActionResult Index(int page=1)
         {
-            var values = cm.GetList();
+            var values = cm.GetList().ToPagedList(page, 3);
             return View(values);
         }
     }
