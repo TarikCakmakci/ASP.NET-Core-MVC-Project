@@ -418,3 +418,4 @@ C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC
 C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\bin\Debug\net5.0\System.IO.Packaging.dll
 C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blog\BlogListExcel.cshtml.g.cs
 C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blog\BlogTitleListExcel.cshtml.g.cs
+C:\Users\Onur\OneDrive\Belgeler\GitHub\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\ASP.NET-Core-MVC-Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Widget\Index.cshtml.g.cs
