@@ -12,5 +12,9 @@ namespace ASP.NET_Core_MVC_Project.Controllers
         {
             return View();
         }
+        public PartialViewResult AdminNavbarPartial()
+        {
+            return PartialView();
+        }
     }
 }
