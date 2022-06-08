@@ -1,11 +1,21 @@
 ﻿@using X.PagedList
 @using X.PagedList.Mvc.Core
 @model IPagedList<EntityLayer.Concrete.Category>
- 
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
 }
+<script src="~/AdminTemplate/js/sweetalert2.js"></script>
+<script>
+    $('$DeleteBtn').click(function () {
+        swal({
+            title: "Good job!",
+            text: "You clicked the button!",
+            icon: "success",
+            button: "Aww yiss!",
+        });
+    })
+</script>
 <h1>Index</h1>
 <br />
 
@@ -24,7 +34,8 @@
         <tr>
             <th>@item.CategoryId</th>
             <td>@item.CategoryName</td>
-            <td><a href="#" class="btn btn-danger">Pasif Yap</a></td>
+            <td><a href="/Admin/Category/CategoryDelete/@item.CategoryId/" id="DeleteBtn" onclick="return confirm('Silmek istediğinize emin misiniz?');" class="btn btn-danger">Pasif Yap</a></td>
+            @*Sweet alert eklenecek*@
             <td><a href="#" class="btn btn-success">Aktif Yap</a></td>
             <td><a href="#" class="btn btn-info">Düzenle</a></td>
         </tr>
@@ -32,4 +43,5 @@
 </table>
 <a href="/Admin/Category/AddCategory" class="btn btn-primary">Yeni Kategori Ekle</a>
 <br /><br />
+
 @Html.PagedListPager((IPagedList)Model,page=>Url.Action("Index",new {page}))
