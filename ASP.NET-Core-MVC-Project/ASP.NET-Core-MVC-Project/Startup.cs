@@ -35,7 +35,7 @@ namespace ASP.NET_Core_MVC_Project
             services.AddControllersWithViews();
 
             services.AddSession();
-            
+
             services.AddMvc(config =>
             {
                 var policy = new AuthorizationPolicyBuilder()
@@ -47,7 +47,7 @@ namespace ASP.NET_Core_MVC_Project
             services.AddMvc();
             services.AddAuthentication(
                 CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(x=>
+                .AddCookie(x =>
                 {
                     x.LoginPath = "/Login/Index";
                 }
@@ -55,7 +55,7 @@ namespace ASP.NET_Core_MVC_Project
 
             services.AddDbContext<Context>(
             options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
-            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -72,7 +72,7 @@ namespace ASP.NET_Core_MVC_Project
                 app.UseHsts();
             }
 
-            app.UseStatusCodePagesWithReExecute("/ErrorPage/Error1","?code={0}");
+            app.UseStatusCodePagesWithReExecute("/ErrorPage/Error1", "?code={0}");
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
@@ -87,7 +87,12 @@ namespace ASP.NET_Core_MVC_Project
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "default",
+                name: "areas",
+                     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+             );
+
+                endpoints.MapControllerRoute(
+                name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
