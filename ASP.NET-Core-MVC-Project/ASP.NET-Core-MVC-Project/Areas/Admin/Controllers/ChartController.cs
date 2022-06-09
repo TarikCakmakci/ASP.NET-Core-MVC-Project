@@ -18,23 +18,27 @@ namespace ASP.NET_Core_MVC_Project.Areas.Admin.Controllers
         public IActionResult CategoryChart()
         {
             List<CategoryClass> list = new List<CategoryClass>();
-
             list.Add(new CategoryClass
             {
-                categoryName = "Teknoloji",
-                categoryCount = 10
+                categoryname = "Teknoloji",
+                categorycount = 10
             });
             list.Add(new CategoryClass
             {
-                categoryName = "Yazılım",
-                categoryCount = 14
+                categoryname = "Yazılım",
+                categorycount = 14
             });
             list.Add(new CategoryClass
             {
-                categoryName = "Spor",
-                categoryCount = 5
+                categoryname = "Spor",
+                categorycount = 5
             });
-            return Json(new {jsonlist=list });
+            list.Add(new CategoryClass
+            {
+                categoryname = "Sinema",
+                categorycount = 12
+            });
+            return Json(new { jsonlist = list });
         }
     }
 }

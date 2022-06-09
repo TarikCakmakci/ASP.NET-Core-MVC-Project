@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 
 namespace ASP.NET_Core_MVC_Project.Areas.Admin.Models
 {
-    public class CategoryClass
+    public class WriterClass
     {
-        public int categorycount { get; set; }
-        public string categoryname { get; set; }
+        public int Id { get; set; }
+
+        public string Name { get; set; }
     }
 }
