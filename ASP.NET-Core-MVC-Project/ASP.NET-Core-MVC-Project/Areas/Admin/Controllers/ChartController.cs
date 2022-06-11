@@ -38,7 +38,7 @@ namespace ASP.NET_Core_MVC_Project.Areas.Admin.Controllers
                 categoryname = "Sinema",
                 categorycount = 12
             });
-            return Json(new { jsonlist = list });
+            return Json(new { JSONList = list });
         }
     }
 }

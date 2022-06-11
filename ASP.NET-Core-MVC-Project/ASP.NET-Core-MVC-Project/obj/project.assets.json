@@ -9104,20 +9104,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tarık\\.nuget\\packages\\": {}
+    "C:\\Users\\Onur\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project.csproj",
+      "projectUniqueName": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project.csproj",
       "projectName": "ASP.NET-Core-MVC-Project",
-      "projectPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project.csproj",
-      "packagesPath": "C:\\Users\\Tarık\\.nuget\\packages\\",
-      "outputPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\obj\\",
+      "projectPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project.csproj",
+      "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Tarık\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -9130,14 +9135,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "E:\\source\\repos\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\Onur\\OneDrive\\Belgeler\\GitHub\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
@@ -9215,7 +9220,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

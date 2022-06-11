@@ -22,7 +22,7 @@
                 type: 'GET',
                 url: '/Admin/Chart/CategoryChart/',
                 success: function (chartsdata) {
-                    var Data = chartsdata.jsonlist;
+                    var Data = chartsdata.JSONList;
                     var data = new google.visualization.DataTable();
                     data.addColumn('string', 'categoryname');
                     data.addColumn('number', 'categorycount');
