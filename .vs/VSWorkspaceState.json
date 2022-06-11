@@ -8,10 +8,11 @@
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Areas\\Admin\\Views",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Areas\\Admin\\Views\\Widget",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views",
+    "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Blog",
     "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared",
     "\\ASP.NET-Core-MVC-Project\\BlogApi",
     "\\ASP.NET-Core-MVC-Project\\BlogApi\\DataAccessLayer"
   ],
-  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Shared\\WriterLayout.cshtml",
+  "SelectedNode": "\\ASP.NET-Core-MVC-Project\\ASP.NET-Core-MVC-Project\\Views\\Blog\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
