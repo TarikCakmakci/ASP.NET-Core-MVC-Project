@@ -20,5 +20,62 @@ namespace BlogApi.Controllers
             return Ok(values);
 
         }
+        [HttpPost]
+        public IActionResult EmployeAdd(Employee employee)
+        {
+            using var c = new Context();
+            c.Add(employee);
+            c.SaveChanges();
+            return Ok();
+        }
+        [HttpGet("{id}")]
+        public IActionResult EmployeeGet(int id)
+        {
+            using var context = new Context();
+            var employee = context.Employees.Find(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Ok(employee);
+            }
+        }
+        [HttpDelete("{id}")]
+        public IActionResult EmployeeDelete(int id)
+        {
+            using var c = new Context();
+            var employee = c.Employees.Find(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                c.Remove(employee);
+                c.SaveChanges();
+                return Ok(employee);
+            }
+        }
+
+        [HttpPut]
+        public IActionResult EmployeeUpdate(Employee employee)
+        {
+            using var c = new Context();
+            var emp = c.Find<Employee>(employee.ID);
+            if (emp == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                emp.Name = employee.Name;
+                c.Update(emp);
+                c.SaveChanges();
+                return Ok();
+            }
+        }
+
     }
 }
